@@ -21,7 +21,7 @@ const Main = () => {
             setCart(NewCart)
         }
         else {
-            alert('Teacher is Already invited')
+            alert('Teacher is Already invited.')
         }
     }
 
@@ -41,7 +41,8 @@ const Main = () => {
                 </div>
                 <div className="cart-container">
                     <Cart
-                        cart={cart}></Cart>
+                        cart={cart}
+                    ></Cart>
                 </div>
             </div>
         </>

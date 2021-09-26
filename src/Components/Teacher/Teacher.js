@@ -9,9 +9,9 @@ const Teacher = (props) => {
                 <img src={img} className="card-img-top img-fluid" alt="" />
                 <div className="card-body">
                     <h3 className="">{name}</h3>
-                    <p className="card-text">From: {country}</p>
-                    <p>Age: {age}</p>
-                    <p>A great teacher of {field}</p>
+                    <p className="card-text">From: <span className="fw-bold">{country}</span></p>
+                    <p>Age: <span className="fw-bold">{age}</span></p>
+                    <p>A great teacher of <span className="fw-bold">{field}</span></p>
                     <p>Cost for one summit: <span className="fw-bold">${salary}</span></p>
                     <button
                         onClick={() => props.handleInviteButton(props.teacher)}

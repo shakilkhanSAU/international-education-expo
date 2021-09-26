@@ -8,7 +8,7 @@ const Teacher = (props) => {
             <div className="single-teacher card h-100">
                 <img src={img} className="card-img-top img-fluid" alt="" />
                 <div className="card-body">
-                    <h5 className="">{name}</h5>
+                    <h3 className="">{name}</h3>
                     <p className="card-text">From: {country}</p>
                     <p>Age: {age}</p>
                     <p>A great teacher of {field}</p>

@@ -12,11 +12,11 @@
 }
 
 .invite-btn {
-    padding: 4px 24px;
+    padding: 4px 20px;
     border: 3px solid crimson;
     background-color: crimson;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     transition: .4s;
 }

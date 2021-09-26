@@ -1,6 +1,14 @@
 .teacher-name {
     background-color: #fff;
-    font-size: 22px;
+    color: #263238;
+    font-size: 20px;
     padding: 4px;
-    margin: 12px
+    margin-left: 35px;
+    font-weight: 600;    
+}
+
+.teacher-name:hover {
+    cursor: pointer;
+    color: #69b980;
+
 }

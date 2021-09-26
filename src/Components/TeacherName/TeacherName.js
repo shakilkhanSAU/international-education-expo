@@ -5,7 +5,7 @@ const TeacherName = (props) => {
     const { name } = props.teacher;
     return (
         <div className="teacher-name">
-            <i class="fas fa-user-tie"></i><span style={{ paddingLeft: '15px' }}>{name}</span>
+            <i className="fas fa-user-tie"></i><span style={{ paddingLeft: '15px' }}>{name}</span>
         </div>
 
     );

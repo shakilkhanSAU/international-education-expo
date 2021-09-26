@@ -16,7 +16,7 @@ const Teacher = (props) => {
                     <button
                         onClick={() => props.handleInviteButton(props.teacher)}
                         className="invite-btn"
-                    ><i class="fas fa-paper-plane"></i> Invite Teacher</button>
+                    ><i className="fas fa-paper-plane"></i> Invite Teacher</button>
                 </div>
             </div>
         </div>
